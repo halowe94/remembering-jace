@@ -1,10 +1,10 @@
 import React from "react";
-//import "./NavBar.css";
+import "./NavBar.css";
 
 function NavBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
         <a className="navbar-brand" href="/members">
           Example NavBar
         </a>

@@ -2,13 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
+import MainDiv from "./MainDiv/MainDiv";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <NavBar />
       </header>
+
       <footer>
         <Footer />
       </footer>
