@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
 import NavBar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
 import "react-bootstrap";
