@@ -7,7 +7,7 @@ function NavBar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
         <a className="navbar-brand" href="/members">
-          Example NavBar
+          Foodbank Finder
         </a>
         <button
           className="navbar-toggler"
@@ -27,6 +27,7 @@ function NavBar() {
                 About <span className="sr-only">(current)</span>
               </a>
             </li>
+            <li className="nav-item"></li>
           </ul>
         </div>
       </nav>
