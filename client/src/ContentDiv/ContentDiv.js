@@ -1,5 +1,12 @@
 import React from "react";
+import Carousel from "../Carousel/Carousel";
 
 function ContentDiv() {
-  return <div></div>;
+  return (
+    <div>
+      <Carousel />
+    </div>
+  );
 }
+
+export default ContentDiv;
