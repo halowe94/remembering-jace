@@ -1,5 +1,5 @@
 import React from "react";
-import "./TectDiv.css";
+import "./TextDiv.css";
 
 function TextDiv() {
   return (
