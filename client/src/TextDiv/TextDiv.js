@@ -1,4 +1,5 @@
 import React from "react";
+import "./TectDiv.css";
 
 function TextDiv() {
   return (
