@@ -9,6 +9,17 @@ function Navigation(props) {
                     <Link class="navbar-brand">
                         Remembering Jace Wbsite
                     </Link>
+
+                    <div>
+                        <ul class="navbar-nav ml-auto">
+                            <li
+                            class={`nav-item ${props.location.pathname === "/" ? "active" : ""}`}>
+                            <Link class="nav-link" to="/">
+                                Home
+                            </Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
