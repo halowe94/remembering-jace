@@ -27,6 +27,15 @@ function Navigation(props) {
                                     About
                                 </Link>
                             </li>
+                            <li
+                            class={`nav-item ${
+                                props.locatiion.pathname === "/contact" ? "active" : ""
+                            }`}
+                            >
+                                <Link class="nav-link" to="/contact">
+                                    Contact
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -34,3 +43,5 @@ function Navigation(props) {
         </div>
     )
 }
+
+export default withRouter;
